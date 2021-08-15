@@ -1,3 +1,6 @@
+/**
+ * 215. 数组中的第K个最大元素
+ */
 public class Solution215 {
     public static void main(String[] args) {
         long startTime = System.nanoTime(); //获取开始时间
@@ -22,6 +25,7 @@ public class Solution215 {
     }
 
     private int sort(int[] nums, int l, int r, int k) {
+        //快速排序基本
         int x = nums[l];
         int i = l;
         int j = r;
@@ -36,12 +40,16 @@ public class Solution215 {
             }
         }
         nums[i] = x;
+        //排完序以后查看当前位置在哪里
         int n = nums.length - i;
         if (n > k) {
+            //如果位置在右边
             return sort(nums, i + 1, r, k);
         } else if (n < k) {
+            //如果位置在左边
             return sort(nums, l, i - 1, k);
         } else {
+            //当前位置就是我们需要的
             return nums[i];
         }
     }
