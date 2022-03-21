@@ -31,7 +31,7 @@ public class TreeNode {
         return build(newList,1);
     }
     private static TreeNode build(Object[] list,int position){
-        if (position>list.length-1||list[position]==null){
+        if (position>list.length-1||list[position]==null||list[position]=="#"){
             return null;
         }
         TreeNode t=new TreeNode();
