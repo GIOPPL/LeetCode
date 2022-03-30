@@ -1,3 +1,5 @@
+import java.util.concurrent.CyclicBarrier;
+
 /**
  * Created by GIOPPL
  * on 2021/6/25 23:08
@@ -5,9 +7,18 @@
  */
 public class Test {
     public static void main(String[] args) {
-        long startTime = System.nanoTime(); //获取开始时间
-        long endTime = System.nanoTime(); //获取结束时间
-        System.out.print(("程序运行时间：" + (endTime - startTime) / 1000 + "k ns"));
+        Boolean fun = fun();
+        System.out.println(fun);
     }
+
+    private static Boolean fun() {
+        try{
+            int a=10/0;
+        }catch (Exception e){
+            return Boolean.FALSE;
+        }
+        return Boolean.FALSE;
+    }
+
 
 }

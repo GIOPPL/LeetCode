@@ -1,5 +1,4 @@
-import org.junit.Test;
-import s21.Solution17;
+//import org.junit.Test;
 
 import java.util.List;
 
@@ -17,19 +16,14 @@ public class Main {
     }
 
     private static void start(){
-        Solution17 solution17=new Solution17();
-        List<String> list = solution17.letterCombinations("23");
-        for (String s:list) {
-            System.out.print(s+"\t");
-        }
-        System.out.println();
+
     }
 
     static void print(Object s) {
         System.out.print(s);
     }
 
-    @Test
+//    @Test
     public void test() {
         System.out.println(42 & 0xffffffff00000000L);
     }
