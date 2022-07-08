@@ -6,7 +6,7 @@ import java.util.LinkedList;
 public class BM61 {
     public static void main(String[] args) {
         BM61 bm61 = new BM61();
-        var matrix = new int[][]{
+        int[][] matrix = new int[][]{
                 {4, 3, 3, 6, 6, 3, 2, 1, 0, 7},
                 {1, 8, 2, 8, 5, 9, 2, 8, 3, 1},
                 {8, 0, 9, 2, 4, 3, 2, 4, 3, 7},
@@ -18,7 +18,7 @@ public class BM61 {
                 {2, 1, 1, 6, 4, 1, 0, 8, 1, 6},
                 {4, 1, 3, 6, 3, 4, 4, 4, 0, 3}
         };
-        var matrix1 = new int[][]{
+        int[][] matrix1 = new int[][]{
                 {2, 1,},
                 {4, 1,}
         };

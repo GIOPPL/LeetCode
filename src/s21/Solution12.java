@@ -8,7 +8,7 @@ import java.util.HashMap;
  * TODO:数字转罗马字符
     启动：
      s21.Solution12 solution12 = new s21.Solution12();
-     String s = solution12.intToRoman(10);
+     com.test.String s = solution12.intToRoman(10);
      System.out.println(s);
  */
 public class Solution12 {

@@ -12,7 +12,7 @@ package s21;
 
  启动：TODO
      s21.Solution6 solution6=new s21.Solution6();
-     String s = solution6.convert("PAYPALISHIRING", 3);
+     com.test.String s = solution6.convert("PAYPALISHIRING", 3);
      print(s);
 
  */

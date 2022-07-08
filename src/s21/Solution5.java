@@ -6,7 +6,7 @@ package s21;
  * TODO:给你一个字符串 s，找到 s 中最长的回文子串。
     启动：
      s21.Solution5 solution5=new s21.Solution5();
-     String s = solution5.longestPalindrome("babad");
+     com.test.String s = solution5.longestPalindrome("babad");
      print(s);
  */
 public class Solution5 {

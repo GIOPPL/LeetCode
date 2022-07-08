@@ -1,6 +1,5 @@
-//import org.junit.Test;
+//import org.junit.test.Test;
 
-import java.util.List;
 
 /**
  * Created by GIOPPL
@@ -23,7 +22,7 @@ public class Main {
         System.out.print(s);
     }
 
-//    @Test
+//    @test.Test
     public void test() {
         System.out.println(42 & 0xffffffff00000000L);
     }

@@ -11,7 +11,7 @@ public class BM57 {
                 {'0', '0', '0', '0', '0'},
                 {'0', '0', '1', '1', '1'}
         };
-        var a="123";
+        String a="123";
         System.out.println(bm57.solve(grid));
 
     }

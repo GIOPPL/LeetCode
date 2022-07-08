@@ -1,7 +1,7 @@
 package sort;
 
 public class MergeSort {
-//    public static void main(String[] args) {
+//    public static void main(com.test.String[] args) {
 //        int[] arr = {11,44,23,67,88,65,34,48,9,12};
 //        MergeSort mergeSort=new MergeSort();
 //        mergeSort.sort(arr,0,arr.length-1);
